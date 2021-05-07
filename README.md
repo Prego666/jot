@@ -52,8 +52,8 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
-    git clone git@github.com:gothinkster/laravel-realworld-example-app.git
-    cd laravel-realworld-example-app
+    git clone git@github.com:Prego666/jot.git
+    cd jot
     composer install
     npm i
     npm run dev
