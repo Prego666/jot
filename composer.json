@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "prego666/jot",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Contacts App",
     "keywords": [
         "framework",
         "laravel"
