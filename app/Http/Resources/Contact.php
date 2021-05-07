@@ -9,7 +9,8 @@ class Contact extends JsonResource
     /**
      * Transform the resource into an array.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
+     *
      * @return array
      */
     public function toArray($request)
@@ -21,11 +22,11 @@ class Contact extends JsonResource
                 'email' => $this->email,
                 'company' => $this->company,
                 'birthday' => $this->birthday->format('m/d/Y'),
-                'last_updated' => $this->updated_at->diffForHumans()
+                'last_updated' => $this->updated_at->diffForHumans(),
             ],
             'links' => [
-                'self' => $this->path()
-            ]
+                'self' => $this->path(),
+            ],
         ];
     }
 }

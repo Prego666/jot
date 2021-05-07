@@ -21,7 +21,7 @@ class Contact extends Model
 
     public function path()
     {
-        return '/contacts/'. $this->id;
+        return '/contacts/'.$this->id;
     }
 
     public function scopeBirthdays($query)
@@ -33,5 +33,4 @@ class Contact extends Model
     {
         return $this->belongsTo(User::class);
     }
-
 }
